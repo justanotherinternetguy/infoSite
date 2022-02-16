@@ -67,6 +67,11 @@ h4 {
 	margin-left: 50px;
 }
 
+.sidenav .closebtn:hover {
+	transform-origin: 50% 50%;
+	color: black;
+}
+
 #main {
   transition: margin-left .5s;
   padding: 20px;
