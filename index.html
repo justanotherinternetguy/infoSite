@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Testing</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Testing</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">Homepage</a>
-		<a href="blog.html">Blog</a>
-		<a href="services.html">Services</a>
-	</div>
+  <body>
+    <nav>
+      <div class="sidebar-top">
+        <span class="shrink-btn">
+          <i class="bx bx-chevron-left"></i>
+        </span>
+      </div>
 
-	<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div class="search"></div>
 
-	
-<body>
-	<div id="main">
-  <h1>
-    <center>Test</center>
-  </h1>
+      <div class="sidebar-links">
+        <ul>
+          <div class="active-tab"></div>
+          <li class="tooltip-element" data-tooltip="0">
+            <a href="#" class="active" data-active="0">
+              <div class="icon">
+                <i class="bx bx-tachometer"></i>
+                <i class="bx bxs-tachometer"></i>
+              </div>
+              <span class="link hide">Home</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="1">
+            <a href="#" data-active="1">
+              <div class="icon">
+                <i class="bx bx-folder"></i>
+                <i class="bx bxs-folder"></i>
+              </div>
+              <span class="link hide">Blog</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="2">
+            <a href="#" data-active="2">
+              <div class="icon">
+                <i class="bx bx-message-square-detail"></i>
+                <i class="bx bxs-message-square-detail"></i>
+              </div>
+              <span class="link hide">Services</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="3">
+            <a href="#" data-active="3">
+              <div class="icon">
+                <i class="bx bx-bar-chart-square"></i>
+                <i class="bx bxs-bar-chart-square"></i>
+              </div>
+              <span class="link hide">N/A</span>
+            </a>
+          </li>
+          <div class="tooltip">
+            <span class="show">Home</span>
+            <span>Blog</span>
+            <span>Services</span>
+            <span>N/A</span>
+          </div>
+        </ul>
+      </div>
+    </nav>
 
-  <p>ABCD</p>
+    <div id="main">
+      <h1>
+        <center>Test</center>
+      </h1>
 
-		<!-- The grid: three columns -->
-<div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:#e1eedd;">Box 1</div>
-  <div class="column" onclick="openTab('b2');" style="background:#e1eeff;">Box 2</div>
-</div>
+      <p>ABCD</p>
+    </div>
 
-<!-- The expanding grid (hidden by default) -->
-<div id="b1" class="containerTab" style="display:none;background:#e1eedd">
-  <!-- If you want the ability to close the container, add a close button -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-  <h2>Box 1</h2>
-  <p>Lorem ipsum..</p>
-</div>
-
-<div id="b2" class="containerTab" style="display:none;background:#e1eeff">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-  <h2>Box 2</h2>
-  <p>Lorem ipsum..</p>
-</div
-	
-	</div>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
