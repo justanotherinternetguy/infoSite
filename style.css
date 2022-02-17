@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-html {
-	font-family: "Montserrat";
-	background-color: #fefbe9;
-}
 
 body {
+	font-family: "Montserrat";
+	/*background-color: #fefbe9; */
+	background: linear-gradient(0deg, #b9f9cf 0%, #fefbe9 100%);
 	color: #183a1d;
+	padding: 0px;
+	height: 3000px; /* Used to enable scrolling */
+}
+
+
+h1 {
+	margin-top: 0;
 }
 
 .sidenav {
@@ -55,4 +61,39 @@ body {
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
+}
+
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+	border-radius: 35px;
+	cursor: pointer;
+	padding: 30px;
+	font-size: 26px;
+	transition: 0.5s;
+}
+
+.column:hover {
+	color: #f1f1f1;
+}
+
+.containerTab {
+  padding: 20px;
+	border-radius: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
