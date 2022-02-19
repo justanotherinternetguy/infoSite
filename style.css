@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+.footer {
+    font-size: 10px;
+    color: gray;
+    bottom: 20px;
+    width: 100%;
+	text-align: center;
+    position: fixed;
+    text-decoration: none;
+}
+
 :root {
   --main-dark: #183a1d;
   --main-light: #fefbe9;
-  --main-light-other: #b9f9cf;
+  --main-light-other: #6ed47f;
   --main-color: #437a4b;
   --main-color-dark: #737373;
   --main-color-light: #5872f5;
@@ -13,10 +23,26 @@
 body {
   font-family: "Montserrat";
   background-color: var(--main-light);
+	word-wrap: break-word;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://media.discordapp.net/attachments/932795316955136010/936842879429664808/unknown.png?width=787&height=439");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
-  background-color: var(--main-dark);
+  background-color: var(--main-light);
   overflow: hidden;
   text-align: center;
   padding: 14px 16px;
@@ -25,7 +51,7 @@ body {
 
 .navbar a {
   float: center;
-  color: var(--text-color);
+  color: var(--main-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -34,6 +60,79 @@ body {
 }
 
 .navbar a:hover {
-  background-color: var(--main-color);
+  background-color: var(--main-light-other);
   border-radius: 25px;
 }
+
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: var(--main-color);
+	color: white;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";	
+    /* Unicode character for "minus" sign (-) */
+}
+
+.quote {
+	margin-top: 100px;
+	background-color: var(--main-light-other);
+	padding: 20px;
+	text-align: center;
+	border-radius: 40px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+
