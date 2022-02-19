@@ -1,23 +1,33 @@
+main,
 html {
-  font-family: "Roboto Serif";
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif!important;
 }
 
-body {
-  margin: 1.3em;
+.website-header {
+  background-image: url("natureForrestHeaderBackground.jpg");
+  background-color: rgb(18, 75, 53);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 32px;
+.website-header-text-h1 {
+  font-size: 4rem;
+  font-weight: 600!important;
 }
 
-h2 {
-  font-size: 24px;
+.website-header-text-h2 {
+  font-size: 3rem;
+  font-weight: 500!important;
 }
 
-h3 {
-  font-size: 18.72px;
-}
+.whatsLifeCoaching h3 {}
 
-h4 {
-  font-size: 16px;
-}
+.whatsLifeCoaching {}
+
+.whyGetLifeCoaching h3 {}
+
+.whyGetLifeCoaching {}
