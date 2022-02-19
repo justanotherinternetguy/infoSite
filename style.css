@@ -115,7 +115,7 @@ body {
     background-color: var(--main-color);
     color: white;
 }
-/* Style the faq-page panel. Note: hidden by default */
+/* S tyle the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
     border-radius: 15px;
