@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #fffceb;
   color: #183a1d;
 }
 
@@ -47,10 +47,6 @@ nav {
 .intro h4 {
   font-size: clamp(1.25rem, 2vw, 2.5rem)!important;
   font-weight: 400;
-}
-
-.questionDropDown {
-  background-color: #fffceb;
 }
 
 .whatsLifeCoaching h3,
