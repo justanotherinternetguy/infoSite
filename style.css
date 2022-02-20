@@ -36,6 +36,17 @@ nav {
 
 .container {
   overflow: hidden;
+  background-color: #fffceb;
+  ;
+}
+
+.intro h3 {
+  font-size: clamp(2rem, 3.5vw, 4rem)!important;
+}
+
+.intro h4 {
+  font-size: clamp(1.25rem, 2vw, 2.5rem)!important;
+  font-weight: 400;
 }
 
 .questionDropDown {
@@ -73,6 +84,18 @@ nav {
   padding-top: 100%;
 }
 
+.intro {
+  padding-top: clamp(0rem, 4.5vw, 6rem);
+}
+
+.introImage {
+  background-image: url("johnDoe.png");
+  background-attachment: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .accordion {
   width: 100%!important;
 }
@@ -84,7 +107,7 @@ nav {
 }
 
 @media only screen and (max-width: 575px) {
-  .square:before {
+  .half-square:before {
     padding-top: 50%;
   }
 }
