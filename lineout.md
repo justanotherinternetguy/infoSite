@@ -1,33 +1,33 @@
-## Photo's Life Coaching
-### Certified Professional Life Coach
+## ~~Photo's Life Coaching~~
+### ~~Certified Professional Life Coach~~
 ⠀
 
 [comment]: # (About)
 
-## Hi, my name is Photo
-### I am a trained professional life coacher
+## ~~Hi, my name is Photo~~
+### ~~I am a trained professional life coacher~~
 ⠀
 
-## What is Life Coaching?
+## ~~What is Life Coaching?~~
 ⠀
 
-## Why is a Life Coach Important?
+## ~~Why is a Life Coach Important?~~
 ⠀
 
 [comment]: # (Reviews)
 
-## Here is what some satisifed customers have said:
+## ~~Here is what some satisifed customers have said:~~
 
-### John Doe
-#### Lorem Ipsum
+### ~~John Doe~~
+#### ~~Lorem Ipsum~~
 ⠀
 
-### Jane Doe
-#### Lorem Ipsum
+### ~~Jane Doe~~
+#### ~~Lorem Ipsum~~
 ⠀
 
-### John Doe
-#### Lorem Ipsum
+### ~~John Doe~~
+#### ~~Lorem Ipsum~~
 ⠀
 
 [comment]: # (Pricing)

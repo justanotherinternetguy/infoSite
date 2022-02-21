@@ -30,10 +30,10 @@
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light px-md-5 px-sm-4 px-3">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light px-md-5 px-sm-4 px-3 py-3">
       <div class="container-fluid px-md-5 px-sm-4 px-3">
         <a class="navbar-brand">
-          <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-bottom"> Photo's Life Coaching
+          <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" class="d-inline-block"> Photo's Life Coaching
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#websiteHeader">Home</a>
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Reviews</a>
+              <a class="nav-link" href="#Reviews">Reviews</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
@@ -61,11 +61,11 @@
     </nav>
 
     <!-- Header -->
-    <div class="container-fluid d-flex website-header" id="websiteHeader">
+    <div class="container-fluid d-flex website-header" id="Home">
       <div class="row d-flex mx-auto">
         <div class="col-12 text-center">
           <h1 class="website-header-text-h1">
-            Photo's Life Coaching
+            John's Life Coaching
           </h1>
           <h2 class="website-header-text-h2">
             Certified Professional Life Coach
@@ -77,21 +77,24 @@
 
     <!-- Life Coaching -->
     <div class="container text-start">
+
       <!-- Intro -->
-      <div class="row d-flex justify-content-center py-5 m-0">
+      <div class="row d-flex justify-content-center py-5 m-0" id="About">
         <div class="col-6 py-0 px-sm-5 px-1  m-0 justify-content-center ">
           <div class="introImage square rounded-circle"></div>
         </div>
         <div class="col-6 intro">
           <h3>
-            Hi, my name is Photo
+            Hi, my name is John Doe.
           </h3>
           <h4>
-            I am a trained professional life coacher
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus ultricies tristique nulla aliquet enim tortor at auctor.
           </h4>
         </div>
       </div>
     </div>
+
+    <!-- Life Coaching -->
     <div class="container text-center">
       <div class="row questionDropDown gy-3 pb-3 d-flex justify-content-center">
         <div class="col-sm-5 col-11 mx-2 p-0 questionImage">
@@ -142,6 +145,54 @@
         </div>
       </div>
     </div>
+
+    <!-- Reviews -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col reviewHeader" id="Reviews">
+          <h2>Heres What Some Satisfied Customers Have to Say:</h2>
+        </div>
+      </div>
+
+      <!-- Review Cards -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 py-4">
+        <div class="col">
+          <div class="card h-100 review">
+            <img src="johnDoe.png" class="rounded-circle p-3 card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <h5 class="card-title">John Doe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 review">
+            <img src="johnDoe.png" class="rounded-circle p-3 card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <h5 class="card-title">Jane Doe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio ut sem nulla pharetra diam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 review">
+            <img src="johnDoe.png" class="rounded-circle p-3 card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <h5 class="card-title">Joe Schmoe</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 review">
+            <img src="johnDoe.png" class="rounded-circle p-3 card-img-top" alt="...">
+            <div class="card-body pt-0">
+              <h5 class="card-title">Jane Smith</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus at urna.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 

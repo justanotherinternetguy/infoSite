@@ -1,14 +1,30 @@
 html {
   font-family: 'Montserrat', sans-serif!important;
+  scroll-behavior: smooth!important;
 }
 
 body {
   background-color: #fffceb;
-  color: #183a1d;
+  color: black;
+  scroll-behavior: smooth!important;
 }
 
 nav {
   transition: all 0.4s ease;
+}
+
+.nav-link {
+  font-size: clamp(1rem, 4vw, 1.25rem)!important;
+}
+
+.navbar-brand {
+  font-size: clamp(1.25rem, 5vw, 1.5rem)!important;
+}
+
+.navbar-brand img {
+  height: clamp(1.25rem, 3vw, 1.875rem)!important;
+  vertical-align: calc(clamp(11%, 0.3vw, 22%) * -1)!important;
+  display: inline-block!important;
 }
 
 .website-header {
@@ -45,20 +61,20 @@ nav {
 }
 
 .intro h4 {
-  font-size: clamp(1.25rem, 2vw, 2.5rem)!important;
+  font-size: clamp(1rem, 1.25vw, 1.5rem)!important;
   font-weight: 400;
 }
 
 .whatsLifeCoaching h3,
 .whyGetLifeCoaching h3 {
   font-size: clamp(1rem, 1.75vw, 2rem)!important;
-  color: #183a1d;
+  color: black;
 }
 
 .whatsLifeCoaching p,
 .whyGetLifeCoaching p {
   font-size: clamp(0.75rem, 1vw, 1.25rem)!important;
-  color: #183a1d;
+  color: black;
 }
 
 .questionImageWrapper {
@@ -100,6 +116,36 @@ nav {
 .accordion-button:focus,
 .accordion-button:active {
   box-shadow: none!important;
+}
+
+.reviewHeader h2 {
+  font-size: clamp(1.875rem, 3vw, 3rem)!important;
+}
+
+.review.card-body .card-title {
+  font-size: clamp(1.5rem, 2vw, 2rem)!important;
+}
+
+.review .card-body .card-text {
+  font-size: clamp(0.75rem, 1vw, 1rem)!important;
+}
+
+@media only screen and (max-width: 991px) {
+  .review .card-body .card-title {
+    font-size: clamp(1.5rem, 3vw, 2rem)!important;
+  }
+  .review .card-body .card-text {
+    font-size: clamp(1.125rem, calc(3vw - 0.5rem), 1rem)!important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .review .card-body .card-title {
+    font-size: clamp(1.5rem, 7vw, 3rem)!important;
+  }
+  .review .card-body .card-text {
+    font-size: clamp(1rem, 6vw, 1.5rem)!important;
+  }
 }
 
 @media only screen and (max-width: 575px) {
