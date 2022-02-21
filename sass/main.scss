@@ -1,0 +1,6 @@
+$primary: #3A96FF;
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+$custom-theme-colors: ( "altLight": #FFFCEB, "altSecondary": #FFD000);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+@import "../node_modules/bootstrap/scss/bootstrap";

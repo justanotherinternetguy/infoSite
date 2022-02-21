@@ -4,7 +4,9 @@ html {
 }
 
 body {
+  /*
   background-color: #fffceb;
+  */
   color: black;
   scroll-behavior: smooth!important;
 }
@@ -51,9 +53,9 @@ nav {
 }
 
 .container {
-  overflow: hidden;
+  /*&
   background-color: #fffceb;
-  ;
+  */
 }
 
 .intro h3 {
@@ -82,7 +84,7 @@ nav {
 }
 
 .questionImage {
-  background-image: url("lemons.jpg");
+  background-image: url("images/lemons.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +103,7 @@ nav {
 }
 
 .introImage {
-  background-image: url("johnDoe.png");
+  background-image: url("images/johnDoe.png");
   background-attachment: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -172,4 +174,50 @@ nav {
 
 .nav-link:hover {
   background-color: rgba(70, 170, 236, 0.2)!important;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.scrollSpot {
+  scroll-margin-top: 5rem;
+}
+
+.contactInfo {
+  font-size: 1.25rem;
+}
+
+.hrtext {
+  border: none;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+.hrtext:after {
+  font-size: 1.125rem;
+  background: #fff;
+  content: 'or';
+  padding: 0 4px;
+  position: relative;
+  top: -0.95rem;
+}
+
+.btn-outline-primary:hover {
+  color: white!important;
 }

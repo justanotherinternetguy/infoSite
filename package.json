@@ -1,0 +1,22 @@
+{
+  "name": "infosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "form-validation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justanotherinternetguy/infoSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justanotherinternetguy/infoSite/issues"
+  },
+  "homepage": "https://github.com/justanotherinternetguy/infoSite#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
